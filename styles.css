@@ -1,0 +1,69 @@
+
+h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+}
+
+h2{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+header, section, aside, footer, nav{
+    display: block;
+}       
+
+body{
+    text-align: center;
+}
+
+.agrupar{
+    background: rgb(197, 197, 197);
+}
+
+.header{
+   background: saddlebrown;
+   padding: 10px;
+}
+
+.menu{
+    background: rgb(107, 118, 49);
+    color: white;
+    padding: 5px 15px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.seccion{
+    margin: 20px;
+    width: 60%;
+    float: left;
+}
+
+.barra p{
+    margin: 40px 0;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    background: blanchedalmond;
+}
+
+.pie{
+    clear: both;
+    background: saddlebrown;
+}
+
+article{
+    background: blanchedalmond;
+}
+
+*{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
